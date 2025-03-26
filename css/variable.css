@@ -4,12 +4,13 @@
 :root {
   --baseFontSize: 1.7rem;
 
-  /* --white: #ffffff;
-  --black: #000; */
+  /* --white: #ffffff;*/
+  --black: #000; 
 
-  /* --gray900: #2d2d2d; */
+  --gray900: #14142B;
   --gray800: #222;
   --gray700: #333;
+  --gray650: #4E4B66;
   --gray600: #555;
   --gray500: #888;
   --gray400: #DCDCDC;
@@ -57,27 +58,29 @@
   --green200: #cee9d4;
   --green100: #eef7f0; */
 
-  /* --blue900: #07152f;
-  --blue800: #0e2b5e;
-  --blue700: #16408d;
+  /* --blue900: #07152f; */
+  --blue800: #002EF1;
+  /* --blue700: #16408d;
   --blue600: #1d56bc; */
-  --blue500: #002EF1;
+  --blue500: #0000EA; 
   /* --blue400: #5089ef;*/
   --blue300: #D9DBE9; 
   /* --blue200: #a7c4f7;
   --blue100: #d3e1fb; */
 
-  --primary: var(--blue600);
-  --secondary: var(--gray600);
-  --danger: var(--red600);
-  --success: var(--green600);
+  --primary: var(--black);
+  --secondary: var(--gray900);
+  --danger: var(--gray650);
+  --success: var(--green500);
+  
 
-  --font-xs: 1.2rem;
+  --font-xs: 1.3rem;
   --font-sm: 1.4rem;
   --font-base: 1.6rem;
   --font-md: 1.8rem;
   --font-lg: 2rem;
-  --font-xl: 2.2rem;
+  --font-xl: 2.4rem;
+  --font-xxl: 3.3rem;
 
   --lh-sm: 1.2;
   --lh-base: 1.5;

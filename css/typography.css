@@ -40,6 +40,13 @@
   letter-spacing: var(--ls, var(--ls-xl));
   font-weight: var(--fw, 400);
 }
+.text-xxl {
+  color: var(--color, var(--gray900));
+  font-size: var(--fs, var(--font-xxl));
+  line-height: var(--lh, var(--lh-xxl));
+  letter-spacing: var(--ls, var(--ls-xxl));
+  font-weight: var(--fw, 400);
+}
 
 strong,
 b {
@@ -48,8 +55,23 @@ b {
   }
 }
 
-.link {
+.link1 {
   text-decoration: underline 2px;
-  text-decoration-color: red;
+  text-decoration-color:var(--gray700);
+  text-underline-offset: 3px;
+}
+.link2 {
+  text-decoration: underline 2px;
+  text-decoration-color:var(--blue800);
+  text-underline-offset: 3px;
+}
+.link3 {
+  text-decoration: underline 2px;
+  text-decoration-color:var(--blue500);
+  text-underline-offset: 3px;
+}
+.link4 {
+  text-decoration: underline 2px;
+  text-decoration-color:var(--gray400);
   text-underline-offset: 3px;
 }
