@@ -2,18 +2,20 @@
   --paddingX: 1rem;
   --width: auto;
   --height: 4rem;
-  --borderColor: var(--gray500);
-  --rounded: 0.4rem;
-  --fontSize: 1.4rem;
-  --color: var(--gray700);
-  --placeholderColor: var(--gray500);
+  /* --borderColor: var(--gray300);  */
+  --bgColor:var(--gray300);
+  --rounded: 0.8rem;
+  --fontSize: 1.6rem;
+  --color: var(--gray600);
+  --placeholderColor: var(--gray600);
   --disabledColor: var(--gray200);
 
   padding-inline: var(--paddingX);
   padding-block: var(--paddingY, 0);
   width: var(--width);
   height: var(--height);
-  border: 1px solid var(--borderColor);
+  /* border: 1px solid var(--borderColor); */
+  background: var(--bgColor);
   border-radius: var(--rounded);
   box-sizing: border-box;
   color: var(--color);

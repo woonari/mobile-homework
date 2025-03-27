@@ -3,9 +3,9 @@
   --onImage: url(../images/ico_radio_on.svg);
   --fontSize: 19px;
   --beforeColor: gray;
-  --afterColor: tomato;
-  --pl: 32px;
-  --height: 24px;
+  --afterColor: #0000EA;
+  --pl: 38px;
+  --height: 32px;
 
   display: inline-flex;
   align-items: center;

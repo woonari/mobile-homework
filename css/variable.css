@@ -4,7 +4,7 @@
 :root {
   --baseFontSize: 1.7rem;
 
-  /* --white: #ffffff;*/
+  --white: #ffffff;
   --black: #000; 
 
   --gray900: #14142B;
@@ -68,9 +68,9 @@
   /* --blue200: #a7c4f7;
   --blue100: #d3e1fb; */
 
-  --primary: var(--black);
+  --primary: var(--blue500);
   --secondary: var(--gray900);
-  --danger: var(--gray650);
+  --danger: var(--red500);
   --success: var(--green500);
   
 

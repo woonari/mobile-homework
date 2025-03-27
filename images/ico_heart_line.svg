@@ -1,0 +1,11 @@
+<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Heart">
+<path id="Union" d="M3.50421 3.77216C1.14134 6.13503 1.14134 9.96602 3.50421 12.3289L12.6691 21.4937L12.732 21.4307L12.7951 21.4938L21.96 12.329C24.3228 9.96609 24.3228 6.13511 21.96 3.77223C19.5971 1.40936 15.7661 1.40936 13.4032 3.77224L13.0857 4.08978C12.8904 4.28505 12.5738 4.28505 12.3786 4.08978L12.0609 3.77216C9.69807 1.40928 5.86709 1.40928 3.50421 3.77216Z" stroke="url(#paint0_linear_112_756)" stroke-width="2"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_112_756" x1="1.73206" y1="2" x2="27.0659" y2="14.9942" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0038F5"/>
+<stop offset="1" stop-color="#9F03FF"/>
+</linearGradient>
+</defs>
+</svg>

@@ -4,23 +4,25 @@
   box-sizing: border-box;
   text-align: center;
   justify-content: center;
+  border-radius: 8px;
 
   /* -------------------------------------------------------------------------- */
   /*                                    크기정의                                  */
   /* -------------------------------------------------------------------------- */
+
   &.base {
-    --px: 1rem;
-    --py: 1rem;
-    /* --fs:1.2rem; */
+    --px: 3rem;
+    --py: .9rem;
+    --fs:1.6rem;
 
     padding-inline: var(--px);
     padding-block: var(--py);
     font-size: var(--fs, var(--font-base));
   }
   &.md {
-    --px: 1.2rem;
-    --py: 1.2rem;
-    /* --fs:1.2rem; */
+    --px: 8rem;
+    --py: 1.5rem;
+    --fs: 2rem;
 
     padding-inline: var(--px);
     padding-block: var(--py);
@@ -35,9 +37,18 @@
     background-color: var(--primary);
   }
   &.secondary {
-    color: var(----gray500);
+    color: var(--blue500);
+    background-color: var(--white);
+    border: 1px solid var(--blue500);
+  }
+  &.subtle {
+    color: var(--blue500);
     background-color: var(--white);
     border: 1px solid var(--gray500);
+  }
+  &.text {
+    color: var(--blue500);
+    background-color: var(--white);
   }
   &:disabled {
     opacity: 0.2;
@@ -47,20 +58,21 @@
   /*                                    아이콘정의                                */
   /* -------------------------------------------------------------------------- */
   &[class*='ico'] {
-    &::after {
+    &::before {
       content: '';
       width: var(--width);
       aspect-ratio: 1;
       background: var(--bg) no-repeat center / contain;
+      margin-right: 8px;
     }
   }
   &.ico1 {
     --width: 2rem;
-    --bg: url('../images/ico1.svg');
+    --bg: url('../images/ico_heart.svg');
   }
   &.ico2 {
     --width: 2rem;
-    --bg: url('../images/ico2.svg');
+    --bg: url('../images/ico_heart_line.svg');
   }
 }
 
@@ -80,13 +92,13 @@
   background-color: transparent;
   cursor: pointer;
   position: relative;
-  img {
+  svg {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-  &:has(img:not([alt])),
-  &:has(img[alt='']) {
+  &:has(svg:not([alt])),
+  &:has(svg[alt='']) {
     &::after {
       content: '대체텍스트를 넣어주세요';
       position: absolute;
